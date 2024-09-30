@@ -22,17 +22,21 @@ rouge-score for evaluating the summaries against human references.
 GPU Limitations: Frequent crashes due to RAM constraints required careful memory management and model optimization.
 Extractive vs. Abstractive Summarization: While extractive methods provided quick results, abstractive summarization posed unique challenges in maintaining language coherence and context.
 Project Structure
+
 Data Preprocessing:
 
 Tokenization, stopword removal, and text normalization using transformers and datasets.
+
 Model Building:
 
 Implemented the T5 architecture for abstractive summarization.
 Extractive methods were also explored using traditional approaches.
+
 Training and Evaluation:
 
 Trained on publicly available datasets using Google Colab with GPU support.
 ROUGE scoring was used to evaluate the performance of the summarization models.
+
 Requirements
 Python 3.x
 transformers: For model implementation.
