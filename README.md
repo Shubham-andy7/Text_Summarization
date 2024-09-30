@@ -3,6 +3,7 @@ Overview
 This project focuses on developing an advanced Text Summarization model utilizing the T5 architecture. Our goal is to create efficient and accurate summaries for long text passages using Natural Language Processing (NLP) techniques. We explored both extractive and abstractive methods of summarization to understand their strengths and weaknesses in different contexts.
 
 Architecture
+
 📄 T5 (Text-to-Text Transfer Transformer):
 
 We leveraged the T5 model, a state-of-the-art transformer-based architecture, known for its versatility across multiple NLP tasks.
@@ -14,6 +15,7 @@ Python Libraries:
 transformers for the T5 model,
 datasets for managing and preprocessing data,
 rouge-score for evaluating the summaries against human references.
+
 🔍 Challenges Faced:
 
 GPU Limitations: Frequent crashes due to RAM constraints required careful memory management and model optimization.
