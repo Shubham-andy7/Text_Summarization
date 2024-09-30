@@ -8,6 +8,7 @@ Architecture
 
 We leveraged the T5 model, a state-of-the-art transformer-based architecture, known for its versatility across multiple NLP tasks.
 The model treats every task as a text generation problem, enabling seamless adaptation to text summarization.
+
 💡 Implementation Details:
 
 We utilized Google Colab with GPU acceleration to manage the heavy computational requirements.
